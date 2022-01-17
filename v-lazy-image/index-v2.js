@@ -84,7 +84,9 @@ const VLazyImageComponent = {
   },
 };
 
-export default VLazyImageComponent;
+module.exports = {
+  VLazyImageComponent,
+};
 
 // export const VLazyImagePlugin = {
 //   install: (app, opts) => {
